@@ -4,18 +4,12 @@
 	color: white;
 	margin: 0 auto;
 	padding-top: 56px;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
 	.lead {
-		max-width: calc(1024px - 48px - 48px);
-		padding-top: 48px;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.lead {
-		max-width: none;
+		max-width: 928px;
 		padding-top: 48px;
 	}
 }
