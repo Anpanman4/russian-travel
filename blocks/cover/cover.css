@@ -1,6 +1,16 @@
 .cover {
-	width: calc(100% - 96px);
-	height: 740px;
+	max-width: calc(100% - 96px);
+	max-height: 750px;
+	height: calc(100vw / 1.73);
+	min-height: 200px;
 	margin: 0 48px;
 	padding: 92px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.cover {
+		height: calc(100vw / 1.6);
+		max-width: 100%;
+		margin: 0;
+	}
 }

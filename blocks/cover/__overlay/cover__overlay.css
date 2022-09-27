@@ -1,15 +1,12 @@
 .cover__overlay {
 	width: 100%;
 	height: 100%;
-	background-image: url(../../../images/cover__background.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-decoration: none;
 }
 
 .cover__overlay:hover {
-	opacity: .2;
+	background-color: rgba(0, 0, 0, 0.8);
 }
