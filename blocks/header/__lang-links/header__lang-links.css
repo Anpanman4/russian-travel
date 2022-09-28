@@ -1,6 +1,7 @@
 .header__lang-links {
 	max-width: calc(30px + 29px + 18px);
 	width: 100%;
+	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
