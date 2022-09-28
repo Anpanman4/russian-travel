@@ -6,3 +6,6 @@
 
 ### Что было использовано при создании
 При создание данного лендинга использовались HTML и CSS
+
+#### gh-pages
+Github Page - https://anpanman4.github.io/russian-travel/
